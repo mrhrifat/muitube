@@ -1,11 +1,18 @@
 import { Box } from "@mui/material";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import SearchFeed from "./components/SearchFeed";
-import VideoDetails from "./components/VideoDetails";
-import ChannelDetails from "./components/ChannelDetails";
-import Feed from "./components/Feed";
+// import Navbar from "./components/Navbar";
+// import SearchFeed from "./components/SearchFeed";
+// import VideoDetails from "./components/VideoDetails";
+// import ChannelDetails from "./components/ChannelDetails";
+// import Feed from "./components/Feed";
+import {
+  Navbar,
+  Feed,
+  VideoDetails,
+  ChannelDetails,
+  SearchFeed,
+} from "./components";
 
 const Root = () => {
   return (
