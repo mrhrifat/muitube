@@ -9,7 +9,7 @@ const Feed = () => {
 
   useEffect(() => {
     fetchData(`/search?part=snippet&q=${selectedCategory}`).then((data) =>
-      setVideos(data)
+      setVideos(data.item)
     );
   }, [selectedCategory]);
 
