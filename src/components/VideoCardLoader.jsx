@@ -1,4 +1,4 @@
-import { Box, Card, Skeleton, Stack } from "@mui/material";
+import { Box, Skeleton, Stack } from "@mui/material";
 import React from "react";
 
 const videos = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
