@@ -1,10 +1,5 @@
 import { CheckCircle } from "@mui/icons-material";
-import {
-  Typography,
-  Card,
-  CardContent,
-  CardMedia,
-} from "@mui/material";
+import { Typography, Card, CardContent, CardMedia } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 import {
