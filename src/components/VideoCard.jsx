@@ -3,7 +3,6 @@ import {
   Typography,
   Card,
   CardContent,
-  CartMedia,
   CardMedia,
 } from "@mui/material";
 import React from "react";
